@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		128020EC1D1E206D009A5772 /* Assignment1.2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assignment1.2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		128020EC1D1E206D009A5772 /* Assignment1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assignment1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		128020EF1D1E206D009A5772 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		128020F11D1E206D009A5772 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		128020F31D1E206D009A5772 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
@@ -43,10 +43,10 @@
 		128020F81D1E206D009A5772 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		128020FB1D1E206D009A5772 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		128020FD1D1E206D009A5772 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		128021021D1E206E009A5772 /* Assignment1.2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Assignment1.2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		128021021D1E206E009A5772 /* Assignment1.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Assignment1.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		128021061D1E206E009A5772 /* Assignment1_2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment1_2Tests.swift; sourceTree = "<group>"; };
 		128021081D1E206E009A5772 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1280210D1D1E206E009A5772 /* Assignment1.2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Assignment1.2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1280210D1D1E206E009A5772 /* Assignment1.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Assignment1.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		128021111D1E206E009A5772 /* Assignment1_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment1_2UITests.swift; sourceTree = "<group>"; };
 		128021131D1E206E009A5772 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,7 +79,7 @@
 		128020E31D1E206D009A5772 = {
 			isa = PBXGroup;
 			children = (
-				128020EE1D1E206D009A5772 /* Assignment1.2 */,
+				128020EE1D1E206D009A5772 /* Assignment1 */,
 				128021051D1E206E009A5772 /* Assignment1.2Tests */,
 				128021101D1E206E009A5772 /* Assignment1.2UITests */,
 				128020ED1D1E206D009A5772 /* Products */,
@@ -89,14 +89,14 @@
 		128020ED1D1E206D009A5772 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				128020EC1D1E206D009A5772 /* Assignment1.2.app */,
-				128021021D1E206E009A5772 /* Assignment1.2Tests.xctest */,
-				1280210D1D1E206E009A5772 /* Assignment1.2UITests.xctest */,
+				128020EC1D1E206D009A5772 /* Assignment1.app */,
+				128021021D1E206E009A5772 /* Assignment1.xctest */,
+				1280210D1D1E206E009A5772 /* Assignment1.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		128020EE1D1E206D009A5772 /* Assignment1.2 */ = {
+		128020EE1D1E206D009A5772 /* Assignment1 */ = {
 			isa = PBXGroup;
 			children = (
 				128020EF1D1E206D009A5772 /* AppDelegate.swift */,
@@ -107,6 +107,7 @@
 				128020FA1D1E206D009A5772 /* LaunchScreen.storyboard */,
 				128020FD1D1E206D009A5772 /* Info.plist */,
 			);
+			name = Assignment1;
 			path = Assignment1.2;
 			sourceTree = "<group>";
 		};
@@ -131,9 +132,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		128020EB1D1E206D009A5772 /* Assignment1.2 */ = {
+		128020EB1D1E206D009A5772 /* Assignment1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 128021161D1E206E009A5772 /* Build configuration list for PBXNativeTarget "Assignment1.2" */;
+			buildConfigurationList = 128021161D1E206E009A5772 /* Build configuration list for PBXNativeTarget "Assignment1" */;
 			buildPhases = (
 				128020E81D1E206D009A5772 /* Sources */,
 				128020E91D1E206D009A5772 /* Frameworks */,
@@ -143,14 +144,14 @@
 			);
 			dependencies = (
 			);
-			name = Assignment1.2;
+			name = Assignment1;
 			productName = Assignment1.2;
-			productReference = 128020EC1D1E206D009A5772 /* Assignment1.2.app */;
+			productReference = 128020EC1D1E206D009A5772 /* Assignment1.app */;
 			productType = "com.apple.product-type.application";
 		};
-		128021011D1E206E009A5772 /* Assignment1.2Tests */ = {
+		128021011D1E206E009A5772 /* Assignment1Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 128021191D1E206E009A5772 /* Build configuration list for PBXNativeTarget "Assignment1.2Tests" */;
+			buildConfigurationList = 128021191D1E206E009A5772 /* Build configuration list for PBXNativeTarget "Assignment1Tests" */;
 			buildPhases = (
 				128020FE1D1E206E009A5772 /* Sources */,
 				128020FF1D1E206E009A5772 /* Frameworks */,
@@ -161,14 +162,14 @@
 			dependencies = (
 				128021041D1E206E009A5772 /* PBXTargetDependency */,
 			);
-			name = Assignment1.2Tests;
+			name = Assignment1Tests;
 			productName = Assignment1.2Tests;
-			productReference = 128021021D1E206E009A5772 /* Assignment1.2Tests.xctest */;
+			productReference = 128021021D1E206E009A5772 /* Assignment1.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1280210C1D1E206E009A5772 /* Assignment1.2UITests */ = {
+		1280210C1D1E206E009A5772 /* Assignment1UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1280211C1D1E206E009A5772 /* Build configuration list for PBXNativeTarget "Assignment1.2UITests" */;
+			buildConfigurationList = 1280211C1D1E206E009A5772 /* Build configuration list for PBXNativeTarget "Assignment1UITests" */;
 			buildPhases = (
 				128021091D1E206E009A5772 /* Sources */,
 				1280210A1D1E206E009A5772 /* Frameworks */,
@@ -179,9 +180,9 @@
 			dependencies = (
 				1280210F1D1E206E009A5772 /* PBXTargetDependency */,
 			);
-			name = Assignment1.2UITests;
+			name = Assignment1UITests;
 			productName = Assignment1.2UITests;
-			productReference = 1280210D1D1E206E009A5772 /* Assignment1.2UITests.xctest */;
+			productReference = 1280210D1D1E206E009A5772 /* Assignment1.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -196,6 +197,7 @@
 				TargetAttributes = {
 					128020EB1D1E206D009A5772 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = HYEP4874B7;
 					};
 					128021011D1E206E009A5772 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -207,7 +209,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 128020E71D1E206D009A5772 /* Build configuration list for PBXProject "Assignment1.2" */;
+			buildConfigurationList = 128020E71D1E206D009A5772 /* Build configuration list for PBXProject "Assignment1" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -220,9 +222,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				128020EB1D1E206D009A5772 /* Assignment1.2 */,
-				128021011D1E206E009A5772 /* Assignment1.2Tests */,
-				1280210C1D1E206E009A5772 /* Assignment1.2UITests */,
+				128020EB1D1E206D009A5772 /* Assignment1 */,
+				128021011D1E206E009A5772 /* Assignment1Tests */,
+				1280210C1D1E206E009A5772 /* Assignment1UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -286,12 +288,12 @@
 /* Begin PBXTargetDependency section */
 		128021041D1E206E009A5772 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 128020EB1D1E206D009A5772 /* Assignment1.2 */;
+			target = 128020EB1D1E206D009A5772 /* Assignment1 */;
 			targetProxy = 128021031D1E206E009A5772 /* PBXContainerItemProxy */;
 		};
 		1280210F1D1E206E009A5772 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 128020EB1D1E206D009A5772 /* Assignment1.2 */;
+			target = 128020EB1D1E206D009A5772 /* Assignment1 */;
 			targetProxy = 1280210E1D1E206E009A5772 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -405,10 +407,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Assignment1.2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.MichaelZhou.Assignment1-2";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MichaelZhou.Assignment1;
+				PRODUCT_NAME = Assignment1;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -416,10 +422,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Assignment1.2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.MichaelZhou.Assignment1-2";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MichaelZhou.Assignment1;
+				PRODUCT_NAME = Assignment1;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -430,8 +440,8 @@
 				INFOPLIST_FILE = Assignment1.2Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MichaelZhou.Assignment1-2Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Assignment1.2.app/Assignment1.2";
+				PRODUCT_NAME = Assignment1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Assignment1.app/Assignment1";
 			};
 			name = Debug;
 		};
@@ -442,8 +452,8 @@
 				INFOPLIST_FILE = Assignment1.2Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MichaelZhou.Assignment1-2Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Assignment1.2.app/Assignment1.2";
+				PRODUCT_NAME = Assignment1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Assignment1.app/Assignment1";
 			};
 			name = Release;
 		};
@@ -453,7 +463,7 @@
 				INFOPLIST_FILE = Assignment1.2UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MichaelZhou.Assignment1-2UITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Assignment1;
 				TEST_TARGET_NAME = Assignment1.2;
 			};
 			name = Debug;
@@ -464,7 +474,7 @@
 				INFOPLIST_FILE = Assignment1.2UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MichaelZhou.Assignment1-2UITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Assignment1;
 				TEST_TARGET_NAME = Assignment1.2;
 			};
 			name = Release;
@@ -472,7 +482,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		128020E71D1E206D009A5772 /* Build configuration list for PBXProject "Assignment1.2" */ = {
+		128020E71D1E206D009A5772 /* Build configuration list for PBXProject "Assignment1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				128021141D1E206E009A5772 /* Debug */,
@@ -481,29 +491,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		128021161D1E206E009A5772 /* Build configuration list for PBXNativeTarget "Assignment1.2" */ = {
+		128021161D1E206E009A5772 /* Build configuration list for PBXNativeTarget "Assignment1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				128021171D1E206E009A5772 /* Debug */,
 				128021181D1E206E009A5772 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		128021191D1E206E009A5772 /* Build configuration list for PBXNativeTarget "Assignment1.2Tests" */ = {
+		128021191D1E206E009A5772 /* Build configuration list for PBXNativeTarget "Assignment1Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1280211A1D1E206E009A5772 /* Debug */,
 				1280211B1D1E206E009A5772 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		1280211C1D1E206E009A5772 /* Build configuration list for PBXNativeTarget "Assignment1.2UITests" */ = {
+		1280211C1D1E206E009A5772 /* Build configuration list for PBXNativeTarget "Assignment1UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1280211D1D1E206E009A5772 /* Debug */,
 				1280211E1D1E206E009A5772 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
