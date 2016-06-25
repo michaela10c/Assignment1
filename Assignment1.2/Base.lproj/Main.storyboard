@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
     <dependencies>
-        <deployment identifier="iOS"/>
+        <deployment version="2304" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -69,13 +69,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gDW-19-IKq">
-                                <rect key="frame" x="20" y="40" width="560" height="491"/>
+                                <rect key="frame" x="20" y="20" width="560" height="531"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="1Ns-DX-tc7">
-                                        <rect key="frame" x="8" y="8" width="560" height="491"/>
+                                        <rect key="frame" x="-8" y="-9" width="560" height="532"/>
                                         <subviews>
                                             <view contentMode="top" translatesAutoresizingMaskIntoConstraints="NO" id="BI5-de-QQO">
-                                                <rect key="frame" x="0.0" y="0.0" width="560" height="246"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="560" height="266"/>
                                                 <subviews>
                                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Generation and Button Reset" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AAy-Gf-DRS">
                                                         <rect key="frame" x="176" y="36" width="208" height="30"/>
@@ -111,31 +111,68 @@
                                                         <integer key="value" value="10"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
+                                                    <rect key="frame" x="0.0" y="0.0" width="360" height="376"/>
+                                                </variation>
                                             </view>
                                             <view contentMode="bottom" translatesAutoresizingMaskIntoConstraints="NO" id="FWo-Lj-rwG">
-                                                <rect key="frame" x="0.0" y="246" width="560" height="246"/>
+                                                <rect key="frame" x="0.0" y="266" width="560" height="266"/>
                                                 <color key="backgroundColor" red="0.53992239750000004" green="1" blue="0.35495114090000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="10"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
+                                                    <rect key="frame" x="0.0" y="376" width="360" height="349"/>
+                                                </variation>
                                             </view>
                                         </subviews>
                                         <variation key="heightClass=compact-widthClass=compact" axis="horizontal"/>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="8" y="8" width="360" height="725"/>
+                                        </variation>
                                     </stackView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstItem="1Ns-DX-tc7" firstAttribute="leading" secondItem="gDW-19-IKq" secondAttribute="leadingMargin" id="9C1-iH-QCc"/>
-                                    <constraint firstItem="1Ns-DX-tc7" firstAttribute="height" secondItem="gDW-19-IKq" secondAttribute="height" id="WBE-lK-gMX"/>
-                                    <constraint firstItem="1Ns-DX-tc7" firstAttribute="width" secondItem="gDW-19-IKq" secondAttribute="width" id="gWS-5V-b0T"/>
-                                    <constraint firstItem="1Ns-DX-tc7" firstAttribute="top" secondItem="gDW-19-IKq" secondAttribute="topMargin" id="x89-el-YdT"/>
+                                    <constraint firstAttribute="trailingMargin" secondItem="1Ns-DX-tc7" secondAttribute="trailing" id="AWu-Iv-MuZ"/>
+                                    <constraint firstItem="1Ns-DX-tc7" firstAttribute="top" secondItem="gDW-19-IKq" secondAttribute="topMargin" id="FRN-UR-Asz"/>
+                                    <constraint firstAttribute="bottomMargin" secondItem="1Ns-DX-tc7" secondAttribute="bottom" id="YFv-Cs-2D7"/>
+                                    <constraint firstItem="1Ns-DX-tc7" firstAttribute="leading" secondItem="gDW-19-IKq" secondAttribute="leadingMargin" id="a7A-PW-j0V"/>
+                                    <constraint firstItem="1Ns-DX-tc7" firstAttribute="trailing" secondItem="gDW-19-IKq" secondAttribute="trailingMargin" id="bE7-0S-DTU"/>
+                                    <constraint firstItem="1Ns-DX-tc7" firstAttribute="bottom" secondItem="gDW-19-IKq" secondAttribute="bottomMargin" id="bEc-3d-xIj"/>
+                                    <constraint firstItem="1Ns-DX-tc7" firstAttribute="top" secondItem="gDW-19-IKq" secondAttribute="top" constant="-9" id="gc4-vz-e2s"/>
+                                    <constraint firstItem="1Ns-DX-tc7" firstAttribute="leading" secondItem="gDW-19-IKq" secondAttribute="leading" constant="-8" id="qiz-bE-d6h"/>
                                 </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="AWu-Iv-MuZ"/>
+                                        <exclude reference="FRN-UR-Asz"/>
+                                        <exclude reference="YFv-Cs-2D7"/>
+                                        <exclude reference="a7A-PW-j0V"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="AWu-Iv-MuZ"/>
+                                        <include reference="FRN-UR-Asz"/>
+                                        <include reference="YFv-Cs-2D7"/>
+                                        <include reference="a7A-PW-j0V"/>
+                                    </mask>
+                                </variation>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="gDW-19-IKq" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leadingMargin" id="20Y-AP-BGa"/>
                             <constraint firstItem="gDW-19-IKq" firstAttribute="centerX" secondItem="QS5-Rx-YEW" secondAttribute="centerX" id="2QI-La-I6V"/>
-                            <constraint firstItem="Djb-ko-YwX" firstAttribute="top" secondItem="gDW-19-IKq" secondAttribute="bottom" constant="20" id="88P-MR-pDq"/>
-                            <constraint firstItem="gDW-19-IKq" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" constant="20" id="CL1-sA-9Wf"/>
+                            <constraint firstItem="gDW-19-IKq" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" id="Ium-7b-7Qv"/>
+                            <constraint firstItem="gDW-19-IKq" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leadingMargin" id="JVb-CD-O75"/>
+                            <constraint firstItem="Djb-ko-YwX" firstAttribute="top" secondItem="gDW-19-IKq" secondAttribute="bottom" id="VV4-sl-oJb"/>
+                            <constraint firstItem="gDW-19-IKq" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" id="ihG-6g-sLp"/>
                             <constraint firstAttribute="trailingMargin" secondItem="gDW-19-IKq" secondAttribute="trailing" id="kW5-jt-t0o"/>
+                            <constraint firstItem="gDW-19-IKq" firstAttribute="trailing" secondItem="QS5-Rx-YEW" secondAttribute="trailingMargin" id="n5o-sq-TEC"/>
                             <constraint firstItem="gDW-19-IKq" firstAttribute="trailing" secondItem="QS5-Rx-YEW" secondAttribute="trailingMargin" id="uL1-ay-z5i"/>
                             <constraint firstItem="gDW-19-IKq" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leadingMargin" id="w1b-GE-Sml"/>
                         </constraints>
