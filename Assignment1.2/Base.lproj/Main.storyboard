@@ -151,7 +151,11 @@
                                         <constraints>
                                             <constraint firstItem="FWo-Lj-rwG" firstAttribute="centerX" secondItem="1Ns-DX-tc7" secondAttribute="centerX" id="9YU-FT-h62"/>
                                         </constraints>
-                                        <variation key="heightClass=compact-widthClass=compact" axis="horizontal"/>
+                                        <variation key="heightClass=compact-widthClass=compact" axis="horizontal">
+                                            <mask key="constraints">
+                                                <exclude reference="9YU-FT-h62"/>
+                                            </mask>
+                                        </variation>
                                     </stackView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
