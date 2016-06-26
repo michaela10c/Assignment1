@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "534BDDDBA688700441DE1951D9C53010F55C17FC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6B9AB4C80EFC9E33417C68DA5D97477B94CF1A15" : 0,
+    "534BDDDBA688700441DE1951D9C53010F55C17FC" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "155ABA1D-2ABC-497E-8E1C-E01BBA6DCA8B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6B9AB4C80EFC9E33417C68DA5D97477B94CF1A15" : "..",
+    "534BDDDBA688700441DE1951D9C53010F55C17FC" : "Assignment1\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Assignment1",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Assignment1.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/michaela10c\/Assignment1.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "534BDDDBA688700441DE1951D9C53010F55C17FC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/michaela10c\/iOSAppDevelopment.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6B9AB4C80EFC9E33417C68DA5D97477B94CF1A15"
+    }
+  ]
+}
