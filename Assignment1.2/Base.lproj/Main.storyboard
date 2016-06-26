@@ -78,7 +78,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="560" height="266"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TDK-wz-wKT">
-                                                        <rect key="frame" x="28" y="13.5" width="504" height="239"/>
+                                                        <rect key="frame" x="28" y="13" width="504" height="239"/>
                                                         <subviews>
                                                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="ask-F7-hhv">
                                                                 <rect key="frame" x="46" y="78" width="99" height="31"/>
