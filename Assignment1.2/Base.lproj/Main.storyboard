@@ -77,33 +77,33 @@
                                             <view contentMode="top" translatesAutoresizingMaskIntoConstraints="NO" id="BI5-de-QQO">
                                                 <rect key="frame" x="0.0" y="0.0" width="560" height="266"/>
                                                 <subviews>
-                                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Generation and Button Reset" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AAy-Gf-DRS">
-                                                        <rect key="frame" x="176" y="36" width="208" height="30"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <textInputTraits key="textInputTraits"/>
-                                                    </textField>
-                                                    <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="ask-F7-hhv">
-                                                        <rect key="frame" x="221" y="98" width="118" height="31"/>
-                                                    </slider>
                                                     <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="ywM-16-a2j">
-                                                        <rect key="frame" x="221" y="143" width="118" height="31"/>
+                                                        <rect key="frame" x="274" y="147" width="99" height="31"/>
                                                     </slider>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Grid size" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ryc-c1-ChE">
-                                                        <rect key="frame" x="137" y="102" width="67" height="21"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Frames/second" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vov-oC-64D">
-                                                        <rect key="frame" x="85" y="147" width="119" height="21"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <rect key="frame" x="213" y="106" width="67" height="21"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lMH-cX-Abd">
-                                                        <rect key="frame" x="257" y="189" width="46" height="30"/>
+                                                        <rect key="frame" x="262" y="185" width="46" height="30"/>
                                                         <state key="normal" title="Button"/>
                                                     </button>
+                                                    <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="ask-F7-hhv">
+                                                        <rect key="frame" x="274" y="102" width="99" height="31"/>
+                                                    </slider>
+                                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Generation and Button Reset" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AAy-Gf-DRS">
+                                                        <rect key="frame" x="206" y="50" width="192" height="30"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                    </textField>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Frames/second" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vov-oC-64D">
+                                                        <rect key="frame" x="175" y="151" width="93" height="21"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.48709353480000001" green="0.784193951" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <userDefinedRuntimeAttributes>
@@ -111,9 +111,6 @@
                                                         <integer key="value" value="10"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
-                                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
-                                                    <rect key="frame" x="0.0" y="0.0" width="360" height="376"/>
-                                                </variation>
                                             </view>
                                             <view contentMode="bottom" translatesAutoresizingMaskIntoConstraints="NO" id="FWo-Lj-rwG">
                                                 <rect key="frame" x="0.0" y="266" width="560" height="266"/>
@@ -123,23 +120,15 @@
                                                         <integer key="value" value="10"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
-                                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
-                                                    <rect key="frame" x="0.0" y="376" width="360" height="349"/>
-                                                </variation>
                                             </view>
                                         </subviews>
                                         <variation key="heightClass=compact-widthClass=compact" axis="horizontal"/>
-                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="8" y="8" width="360" height="725"/>
-                                        </variation>
                                     </stackView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="trailingMargin" secondItem="1Ns-DX-tc7" secondAttribute="trailing" id="AWu-Iv-MuZ"/>
-                                    <constraint firstItem="1Ns-DX-tc7" firstAttribute="top" secondItem="gDW-19-IKq" secondAttribute="topMargin" id="FRN-UR-Asz"/>
                                     <constraint firstAttribute="bottomMargin" secondItem="1Ns-DX-tc7" secondAttribute="bottom" id="YFv-Cs-2D7"/>
-                                    <constraint firstItem="1Ns-DX-tc7" firstAttribute="leading" secondItem="gDW-19-IKq" secondAttribute="leadingMargin" id="a7A-PW-j0V"/>
                                     <constraint firstItem="1Ns-DX-tc7" firstAttribute="trailing" secondItem="gDW-19-IKq" secondAttribute="trailingMargin" id="bE7-0S-DTU"/>
                                     <constraint firstItem="1Ns-DX-tc7" firstAttribute="bottom" secondItem="gDW-19-IKq" secondAttribute="bottomMargin" id="bEc-3d-xIj"/>
                                     <constraint firstItem="1Ns-DX-tc7" firstAttribute="top" secondItem="gDW-19-IKq" secondAttribute="top" constant="-9" id="gc4-vz-e2s"/>
@@ -148,17 +137,13 @@
                                 <variation key="default">
                                     <mask key="constraints">
                                         <exclude reference="AWu-Iv-MuZ"/>
-                                        <exclude reference="FRN-UR-Asz"/>
                                         <exclude reference="YFv-Cs-2D7"/>
-                                        <exclude reference="a7A-PW-j0V"/>
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=compact-widthClass=compact">
                                     <mask key="constraints">
                                         <include reference="AWu-Iv-MuZ"/>
-                                        <include reference="FRN-UR-Asz"/>
                                         <include reference="YFv-Cs-2D7"/>
-                                        <include reference="a7A-PW-j0V"/>
                                     </mask>
                                 </variation>
                             </view>
