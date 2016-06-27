@@ -78,7 +78,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="560" height="266"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TDK-wz-wKT">
-                                                        <rect key="frame" x="0.0" y="-0.5" width="560" height="266"/>
+                                                        <rect key="frame" x="56" y="26" width="448" height="213"/>
                                                         <subviews>
                                                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="ask-F7-hhv">
                                                                 <rect key="frame" x="46" y="78" width="99" height="31"/>
@@ -106,6 +106,9 @@
                                                                 <rect key="frame" x="0.0" y="20" width="192" height="30"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                                 <textInputTraits key="textInputTraits"/>
+                                                                <variation key="heightClass=compact-widthClass=compact" fixedFrame="YES">
+                                                                    <rect key="frame" x="0.0" y="20" width="143" height="30"/>
+                                                                </variation>
                                                             </textField>
                                                         </subviews>
                                                         <color key="backgroundColor" red="0.48709353480000001" green="0.784193951" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -118,12 +121,12 @@
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.48709353480000001" green="0.784193951" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
-                                                    <constraint firstItem="TDK-wz-wKT" firstAttribute="height" secondItem="BI5-de-QQO" secondAttribute="height" priority="750" id="AfL-3n-AJh"/>
+                                                    <constraint firstItem="TDK-wz-wKT" firstAttribute="height" secondItem="BI5-de-QQO" secondAttribute="height" multiplier="0.8" priority="750" id="AfL-3n-AJh"/>
                                                     <constraint firstItem="TDK-wz-wKT" firstAttribute="centerX" secondItem="BI5-de-QQO" secondAttribute="centerX" id="O40-DA-F6V"/>
-                                                    <constraint firstItem="TDK-wz-wKT" firstAttribute="width" secondItem="BI5-de-QQO" secondAttribute="width" priority="750" id="Z99-6A-xED"/>
+                                                    <constraint firstItem="TDK-wz-wKT" firstAttribute="width" secondItem="BI5-de-QQO" secondAttribute="width" multiplier="0.8" priority="750" id="Z99-6A-xED"/>
                                                     <constraint firstItem="TDK-wz-wKT" firstAttribute="centerY" secondItem="BI5-de-QQO" secondAttribute="centerY" id="pue-uC-Zo6"/>
-                                                    <constraint firstItem="TDK-wz-wKT" firstAttribute="width" relation="lessThanOrEqual" secondItem="BI5-de-QQO" secondAttribute="width" id="rgq-KY-Gua"/>
-                                                    <constraint firstItem="TDK-wz-wKT" firstAttribute="height" relation="lessThanOrEqual" secondItem="BI5-de-QQO" secondAttribute="height" id="x9D-NV-60k"/>
+                                                    <constraint firstItem="TDK-wz-wKT" firstAttribute="width" relation="lessThanOrEqual" secondItem="BI5-de-QQO" secondAttribute="width" multiplier="0.8" id="rgq-KY-Gua"/>
+                                                    <constraint firstItem="TDK-wz-wKT" firstAttribute="height" relation="lessThanOrEqual" secondItem="BI5-de-QQO" secondAttribute="height" multiplier="0.8" id="x9D-NV-60k"/>
                                                 </constraints>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
