@@ -78,36 +78,36 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="560" height="266"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TDK-wz-wKT">
-                                                        <rect key="frame" x="56" y="26" width="448" height="213"/>
+                                                        <rect key="frame" x="98" y="46.5" width="364" height="172.5"/>
                                                         <subviews>
                                                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="ask-F7-hhv">
-                                                                <rect key="frame" x="46" y="78" width="99" height="31"/>
+                                                                <rect key="frame" x="23" y="78" width="148" height="31"/>
                                                             </slider>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Grid size" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ryc-c1-ChE">
-                                                                <rect key="frame" x="68" y="58" width="56" height="21"/>
-                                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <rect key="frame" x="67" y="58" width="58" height="21"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="ywM-16-a2j">
-                                                                <rect key="frame" x="47" y="133" width="99" height="31"/>
+                                                                <rect key="frame" x="23" y="133" width="148" height="31"/>
                                                             </slider>
                                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lMH-cX-Abd">
                                                                 <rect key="frame" x="77" y="171" width="39" height="30"/>
                                                                 <state key="normal" title="Reset"/>
                                                             </button>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Frames/second" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vov-oC-64D">
-                                                                <rect key="frame" x="50" y="111" width="93" height="21"/>
-                                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <rect key="frame" x="39" y="110" width="114" height="21"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Generation and Button Reset" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AAy-Gf-DRS">
-                                                                <rect key="frame" x="0.0" y="20" width="192" height="30"/>
-                                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                                <rect key="frame" x="-6" y="14" width="204" height="30"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                 <textInputTraits key="textInputTraits"/>
                                                                 <variation key="heightClass=compact-widthClass=compact" fixedFrame="YES">
-                                                                    <rect key="frame" x="0.0" y="20" width="143" height="30"/>
+                                                                    <rect key="frame" x="0.0" y="20" width="174" height="30"/>
                                                                 </variation>
                                                             </textField>
                                                         </subviews>
@@ -121,12 +121,12 @@
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.48709353480000001" green="0.784193951" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
-                                                    <constraint firstItem="TDK-wz-wKT" firstAttribute="height" secondItem="BI5-de-QQO" secondAttribute="height" multiplier="0.8" priority="750" id="AfL-3n-AJh"/>
+                                                    <constraint firstItem="TDK-wz-wKT" firstAttribute="height" secondItem="BI5-de-QQO" secondAttribute="height" multiplier="0.65" priority="750" id="AfL-3n-AJh"/>
                                                     <constraint firstItem="TDK-wz-wKT" firstAttribute="centerX" secondItem="BI5-de-QQO" secondAttribute="centerX" id="O40-DA-F6V"/>
-                                                    <constraint firstItem="TDK-wz-wKT" firstAttribute="width" secondItem="BI5-de-QQO" secondAttribute="width" multiplier="0.8" priority="750" id="Z99-6A-xED"/>
+                                                    <constraint firstItem="TDK-wz-wKT" firstAttribute="width" secondItem="BI5-de-QQO" secondAttribute="width" multiplier="0.65" priority="750" id="Z99-6A-xED"/>
                                                     <constraint firstItem="TDK-wz-wKT" firstAttribute="centerY" secondItem="BI5-de-QQO" secondAttribute="centerY" id="pue-uC-Zo6"/>
-                                                    <constraint firstItem="TDK-wz-wKT" firstAttribute="width" relation="lessThanOrEqual" secondItem="BI5-de-QQO" secondAttribute="width" multiplier="0.8" id="rgq-KY-Gua"/>
-                                                    <constraint firstItem="TDK-wz-wKT" firstAttribute="height" relation="lessThanOrEqual" secondItem="BI5-de-QQO" secondAttribute="height" multiplier="0.8" id="x9D-NV-60k"/>
+                                                    <constraint firstItem="TDK-wz-wKT" firstAttribute="width" relation="lessThanOrEqual" secondItem="BI5-de-QQO" secondAttribute="width" multiplier="0.65" id="rgq-KY-Gua"/>
+                                                    <constraint firstItem="TDK-wz-wKT" firstAttribute="height" relation="lessThanOrEqual" secondItem="BI5-de-QQO" secondAttribute="height" multiplier="0.65" id="x9D-NV-60k"/>
                                                 </constraints>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
